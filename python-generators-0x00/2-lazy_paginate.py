@@ -1,3 +1,4 @@
+
 import seed
 
 def paginate_users(page_size, offset):
@@ -11,7 +12,7 @@ def paginate_users(page_size, offset):
     return rows
 
 
-def lazy_pagination(page_size):
+def lazy_paginate(page_size):
     """Generator that yields pages of users lazily, one page at a time."""
     offset = 0
     while True:
